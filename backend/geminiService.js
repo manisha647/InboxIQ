@@ -4,7 +4,7 @@ export async function generateReply(
   length
 ) {
   const response = await fetch(
-    "http://localhost:5000/generate",
+    ""https://inboxiq-backend-e4iu.onrender.com/generate"",
     {
       method: "POST",
 
